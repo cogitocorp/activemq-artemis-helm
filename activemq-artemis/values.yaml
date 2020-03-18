@@ -12,6 +12,7 @@ image:
   # ref: https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/
   pullSecrets: []
 
+securityEnabled: true
 # artemisUser sets the artemis admin user name
 artemisUser: artemis
 # artemisPassword sets the artemis admin user password
