@@ -21,6 +21,9 @@ spec:
   - name: amqp
     port: 5672
     targetPort: amqp
+  - name: stomp
+    port: 61613
+    targetPort: stomp
   type: LoadBalancer
   selector:
     app: {{ template "artemis.name" . }}
